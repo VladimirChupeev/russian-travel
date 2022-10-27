@@ -1,0 +1,16 @@
+.place__title{
+    grid-column-start: auto;
+    justify-self: start;
+    margin: 0;
+    align-self:end;
+
+    font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+/* or 106% */
+
+
+color: #FFFFFF;
+
+}
