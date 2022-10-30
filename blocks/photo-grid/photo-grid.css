@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(3, 1fr);
-    margin: auto;
+    margin: 0 auto 92px auto;
     justify-self: start;
     gap: 16px;
     justify-content: center;
