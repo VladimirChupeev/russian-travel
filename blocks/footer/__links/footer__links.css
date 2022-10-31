@@ -1,5 +1,7 @@
 .footer__links{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+list-style: none;
+display: flex;
+list-style-type: none;
+gap: 18px;
+
 }
