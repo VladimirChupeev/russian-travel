@@ -1,9 +1,8 @@
 .photo-grid{
     display: grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 1fr);
-    margin: 0 auto 92px auto;
-    justify-self: start;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    margin: 0 48px 92px 48px;
     gap: 16px;
     justify-content: center;
 }
@@ -11,23 +10,23 @@
 
 @media screen and (max-width:1024px) {
     .photo-grid {
-        grid-template-columns: repeat(3, 300px);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
     }
 }
 
 @media screen and (max-width:768px) {
     .photo-grid {
-        grid-template-columns: repeat(2, 352px);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
+        grid-template-rows: repeat(6, minmax(min-content, max-content));
         justify-self: center;
     }
 }
 
 @media screen and (max-width:320px) {
     .photo-grid {
-        grid-template-columns: 288px;
-        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: minmax(min-content, max-content);
+        grid-template-rows: repeat(12, minmax(min-content, max-content));
         justify-self: center;
     }
 }

@@ -1,9 +1,5 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    max-width: 984px;
-    margin: auto auto 92px auto;
-    justify-content: start;
+    margin: auto 148px 92px 148px;
 
 }
 
