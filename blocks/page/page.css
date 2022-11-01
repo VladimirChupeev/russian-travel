@@ -4,3 +4,22 @@
 font-family: Inter;
 margin: auto;
 }
+
+@media screen and (max-width:1024px) {
+    .page {
+
+    }
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .page {
+
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .page {
+        
+    }
+  }

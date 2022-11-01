@@ -12,3 +12,18 @@ line-height: 163%;
 
 color: #FFFFFF;
 }
+
+@media screen and (max-width:320px) {
+    .intro__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        /* or 26px */
+        
+        
+        color: #FFFFFF;
+ 
+    }
+}

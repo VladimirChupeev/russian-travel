@@ -3,3 +3,22 @@
     justify-content: start;
     flex-direction: column;
 }
+@media screen and (max-width:1024) {
+    .intro__content {
+        max-width: 690px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:768) {
+    .intro__content {
+        max-width: 720px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:320) {
+    .intro__content {
+        max-width: 288px;
+    }
+}

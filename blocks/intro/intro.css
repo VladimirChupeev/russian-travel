@@ -1,4 +1,4 @@
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
     max-width: 984px;
@@ -6,3 +6,4 @@
     justify-content: start;
 
 }
+
