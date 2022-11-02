@@ -12,6 +12,8 @@ line-height: 76px;
 
 
 color: #FFFFFF;
+max-width: 460px;
+margin-bottom: 48px;
 
 }
 @media screen and (max-width:768px) {
@@ -25,6 +27,7 @@ color: #FFFFFF;
         
         
         color: #FFFFFF;
+        max-width: 340px;
 
     }
     
@@ -42,6 +45,7 @@ color: #FFFFFF;
         
         color: #FFFFFF;
         margin-left: 16px;
+        margin-bottom: 32px;
     }
     
   }

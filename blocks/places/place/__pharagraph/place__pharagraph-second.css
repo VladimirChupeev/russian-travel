@@ -11,7 +11,7 @@ color: #FFFFFF;
 
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
     .place__pharagraph-second{
         font-family: 'Inter';
         font-style: normal;
@@ -22,7 +22,15 @@ color: #FFFFFF;
         
         
         color: #FFFFFF;
-        margin: 0 16px 0;
+        margin:0;
+
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place__pharagraph-second{
+     
+        margin: 0 0 25px;
 
     }
 }

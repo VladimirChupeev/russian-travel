@@ -9,4 +9,15 @@
     text-align: right;
     
     color: #FFFFFF;
+    margin: 0;
+
+}
+
+@media screen and (max-width:400px) {
+    .footer__copyright{
+        align-self: flex-start;
+        font-size: 14px;
+line-height: 14px;
+    }
+    
 }
