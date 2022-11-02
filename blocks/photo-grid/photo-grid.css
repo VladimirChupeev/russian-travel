@@ -12,11 +12,13 @@
     .photo-grid {
         grid-template-columns: repeat(3, minmax(min-content, max-content));
         grid-template-rows: repeat(4, minmax(min-content, max-content));
+        gap: 14px;
     }
 }
 
 @media screen and (max-width:768px) {
     .photo-grid {
+        margin: 0 24px 88px;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         grid-template-rows: repeat(6, minmax(min-content, max-content));
         justify-self: center;
@@ -25,6 +27,8 @@
 
 @media screen and (max-width:320px) {
     .photo-grid {
+        margin: 0 16px 64px;
+        gap: 12px;
         grid-template-columns: minmax(min-content, max-content);
         grid-template-rows: repeat(12, minmax(min-content, max-content));
         justify-self: center;
