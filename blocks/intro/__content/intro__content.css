@@ -1,8 +1,9 @@
-.intro__content{
+.intro__content {
     display: flex;
     justify-content: start;
     flex-direction: column;
 }
+
 @media screen and (max-width:1024) {
     .intro__content {
         max-width: 690px;
