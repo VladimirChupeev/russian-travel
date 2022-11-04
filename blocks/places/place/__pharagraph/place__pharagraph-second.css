@@ -1,35 +1,35 @@
-.place__pharagraph-second{
+.place__pharagraph-second {
+    font-family: 'Inter';
     margin: 0;
     font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 163%;
-/* or 29px */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 
 @media screen and (max-width:768px) {
-    .place__pharagraph-second{
-        font-family: 'Inter';
+    .place__pharagraph-second {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
         /* or 26px */
-        
-        
+
+
         color: #FFFFFF;
-        margin:0;
+        margin: 0;
 
     }
 }
 
 @media screen and (max-width:320px) {
-    .place__pharagraph-second{
-     
+    .place__pharagraph-second {
+
         margin: 0 0 25px;
 
     }

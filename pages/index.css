@@ -1,6 +1,6 @@
 @import url(../blocks/page/page.css);
 @import url(../vendor/fonts.css);
-@import url(../normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/main/content.css);
 @import url(../blocks/container/container.css);
 /* header */

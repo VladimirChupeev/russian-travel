@@ -1,11 +1,10 @@
-.place__url-heading{
+.place__url-heading {
     justify-self: baseline;
-
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #AAAAAA;
-    
+
 }
