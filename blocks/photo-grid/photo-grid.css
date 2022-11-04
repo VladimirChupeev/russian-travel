@@ -21,6 +21,7 @@
         margin-left: 24px;
         margin-right: 24px;
         margin-bottom: 88px;
+        gap: 16px;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         grid-template-rows: repeat(6, minmax(min-content, max-content));
         justify-self: center;

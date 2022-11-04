@@ -17,3 +17,11 @@
     text-decoration-line: underline;
 }
 
+@media screen and (max-width:320px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+}
+

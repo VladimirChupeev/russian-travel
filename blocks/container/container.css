@@ -1,4 +1,6 @@
 .container {
     background-color: #2A2C2F;
-    font-family: 'Inter','Arial',sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
