@@ -7,7 +7,7 @@
 }
 
 .place__pharagraph:first-of-type {
-    margin-bottom: 26px;
+    margin-bottom: 27px;
 
 }
 
@@ -16,10 +16,21 @@
 
 }
 
+@media screen and (max-width:1024px) {
+    .place__pharagraph:first-of-type {
+        margin-bottom: 26px;
+    
+    }
+}
 
 @media screen and (max-width:768px) {
     .place__pharagraph {
         font-size: 16px;
+        line-height: 26px;
+    }
+    .place__pharagraph:first-of-type {
+        margin-bottom: 25px;
+    
     }
 }
 
@@ -29,7 +40,6 @@
         margin-bottom: 25px;
         margin-left: 16px;
         margin-right: 16px;
-        font-size: 16px;
-        line-height: 26px;
+       
     }
 }

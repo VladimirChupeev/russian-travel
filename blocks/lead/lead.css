@@ -3,20 +3,20 @@
     flex-direction: column;
     justify-content: center;
     margin: 56px 148px 92px;
-        max-width: 984px;
-        box-sizing: border-box;
+    max-width: 984px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1024px) {
+    .lead {
+        margin: 48px auto 90px;
     }
-    
-    @media screen and (max-width:1024px) {
-        .lead {
-            margin: 48px 0px 88px;
-        }
+}
+
+
+@media screen and (max-width:320px) {
+    .lead {
+        margin-bottom: 64px;
     }
-    
-    
-    @media screen and (max-width:320px) {
-        .lead {
-            margin-bottom: 64px;
-        }
-    
-    }
+
+}
