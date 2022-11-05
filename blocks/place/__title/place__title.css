@@ -10,14 +10,12 @@
     color: #FFFFFF;
     max-width: 460px;
     margin-bottom: 48px;
-
 }
 
 @media screen and (max-width:1024px) {
     .place__title {
-       max-width: 440px;
+        max-width: 440px;
     }
-
 }
 
 @media screen and (max-width:768px) {
@@ -27,7 +25,6 @@
         max-width: 330px;
 
     }
-
 }
 
 @media screen and (max-width:320px) {
@@ -38,5 +35,4 @@
         margin-left: 16px;
         margin-bottom: 0;
     }
-
 }

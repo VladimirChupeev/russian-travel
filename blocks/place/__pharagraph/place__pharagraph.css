@@ -3,23 +3,19 @@
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-
 }
 
 .place__pharagraph:first-of-type {
     margin-bottom: 27px;
-
 }
 
 .place__pharagraph:first-of-type:last-child {
     margin-bottom: 0px;
-
 }
 
 @media screen and (max-width:1024px) {
     .place__pharagraph:first-of-type {
         margin-bottom: 26px;
-    
     }
 }
 
@@ -28,9 +24,9 @@
         font-size: 16px;
         line-height: 26px;
     }
+
     .place__pharagraph:first-of-type {
         margin-bottom: 25px;
-    
     }
 }
 
@@ -40,6 +36,5 @@
         margin-bottom: 25px;
         margin-left: 16px;
         margin-right: 16px;
-       
     }
 }
